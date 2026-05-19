@@ -1,0 +1,17 @@
+.DS_Store
+
+# Raw crawl exports
+all_inlinks.csv
+canonicals_all.csv
+directives_all.csv
+h1_all.csv
+images_all.csv
+internal_all.csv
+meta_description_all.csv
+page_titles_all.csv
+response_codes_all.csv
+
+# Raw GSC and archive exports
+gsc/
+defiliban/
+
