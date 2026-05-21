@@ -1,0 +1,12 @@
+url,current_status,current_robots,current_sitemap_state,recommended_action,priority,note
+https://defiliban.io/blog/,200,"index,follow",not_checked_live,keep_index,low,"Primary archive hub; high internal prominence."
+https://defiliban.io/crypto/,200,"index,follow",not_checked_live,keep_index,low,"Primary archive hub; high internal prominence."
+https://defiliban.io/news/,200,"index,follow",not_checked_live,keep_index,low,"Primary archive hub; high internal prominence."
+https://defiliban.io/blog/page/2/,200,"noindex,follow",not_in_checked_sitemaps,keep_noindex,low,"Pagination handling is live and correct."
+https://defiliban.io/crypto/page/2/,200,"noindex,follow",not_in_checked_sitemaps,keep_noindex,low,"Pagination handling is live and correct."
+https://defiliban.io/news/page/2/,200,"noindex,follow",not_in_checked_sitemaps,keep_noindex,low,"Pagination handling is live and correct."
+https://defiliban.io/market/binance/page/5/,200,"noindex,follow",not_checked_live,keep_noindex,low,"Deep archive page already de-indexed."
+https://defiliban.io/press-release/,200,"noindex,follow",not_in_checked_sitemaps,keep_noindex_or_remove_internal_links,medium,"Archive is already noindex; reduce internal prominence if unnecessary."
+https://defiliban.io/news/coinbase/,200,"noindex,follow",not_in_checked_sitemaps,keep_noindex_or_remove_internal_links,medium,"Archive is already noindex."
+https://defiliban.io/t/coinbase/,301,redirects_to_news_coinbase,not_applicable,done_redirect,low,"Redirect is live via Rank Math."
+https://defiliban.io/market/investor/,200,"index,follow",in_category_sitemap,test_noindex_unless_real_hub,high,"Very low word count in crawl and still sitemap-promoted; only keep indexable if it is a real strategic topic hub."

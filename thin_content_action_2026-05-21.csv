@@ -1,0 +1,11 @@
+url,current_status,current_robots,word_count_from_crawl,recommended_action,priority,note
+https://defiliban.io/blackrock-bitcoin-trust-outflow/,200,"index,follow",682,rewrite_expand_keep_index,high,"Keep as news article but add source detail, context, and clearer uniqueness."
+https://defiliban.io/cardano-ada-holdings-audit/,200,"index,follow",686,rewrite_expand_keep_index,high,"Keep as news article but improve depth, sourcing, and differentiators."
+https://defiliban.io/microstrategy-bitcoin-acquisition-strategy/,200,"index,follow",644,rewrite_expand_keep_index,high,"Keep as news article but strengthen specificity and update context."
+https://defiliban.io/company-policy-change-employees/,404,not_applicable,328,done_404,low,"Low-value generic article cluster already removed."
+https://defiliban.io/government-renewable-energy-policy/,404,not_applicable,304,done_404,low,"Low-value generic article cluster already removed."
+https://defiliban.io/new-policy-changes-impact-businesses/,404,not_applicable,307,done_404,low,"Low-value generic article cluster already removed."
+https://defiliban.io/policy-changes-impacting-local-businesses/,404,not_applicable,305,done_404,low,"Low-value generic article cluster already removed."
+https://defiliban.io/local-business-policy-changes/,404,not_applicable,272,done_404,low,"Low-value generic article cluster already removed."
+https://defiliban.io/press-release/,200,"noindex,follow",486,archive_keep_noindex,medium,"Treat as archive, not a page that needs expansion."
+https://defiliban.io/news/coinbase/,200,"noindex,follow",277,archive_keep_noindex,medium,"Treat as archive, not a page that needs expansion."
