@@ -165,3 +165,101 @@ The later recrawl exposed a separate template-level issue not fully visible in t
   - `/?page_id=2413`
 
 That issue belongs to the post-wave-1 follow-up, not to the original wave-1 execution.
+
+## 9. Wave 2 Follow-up: Mobile Menu / Template Cleanup
+
+Wave 2 began after the first recrawl exposed a template-level issue still leaking internal crawl noise from the mobile menu.
+
+Primary evidence before the cleanup:
+
+- `/home-coin/` -> `301` target still receiving `6380` internal links
+- `/coin-home-5/` -> `301` target still receiving `3190` internal links
+- `/?page_id=2389` -> `404` target still receiving `3190` internal links
+- `/?page_id=2413` -> `404` target still receiving `3190` internal links
+- `/contact/` -> still `200` and heavily linked sitewide from template navigation
+
+Source analysis showed these were not article-body links. They were coming from repeated mobile header / mobile collapse menu items.
+
+## 10. Wave 2 Menu Items Removed
+
+The follow-up traced and removed these legacy menu items:
+
+- `menu-item-2515` -> `Home` -> `/home-coin/`
+- `menu-item-2517` -> `Home 1` -> `/home-coin/`
+- `menu-item-2516` -> `Home 2` -> `/?page_id=2389`
+- `menu-item-2525` -> `Home 4` -> `/?page_id=2413`
+- `menu-item-2526` -> `Home 5` -> `/coin-home-5/`
+
+Total legacy mobile menu items removed in wave 2:
+
+- `5`
+
+## 11. Wave 2 Validation
+
+Live HTML validation after the cleanup showed:
+
+- homepage `/home-coin/` mentions in HTML: `0`
+- sample article `/home-coin/` mentions in HTML: `0`
+
+Status validation after the cleanup:
+
+- `/home-coin/` -> still `301`
+- `/coin-home-5/` -> still `301`
+- `/?page_id=2389` -> still `404`
+- `/?page_id=2413` -> still `404`
+
+## 12. Wave 2 Recrawl Outcome
+
+Source:
+
+- `/home/qcweb/defiliban crawl 2nd 24-5-2026/internal_all.csv`
+
+The second recrawl confirmed that these problem URLs no longer appeared as active internal HTML targets:
+
+- `/home-coin/` -> `MISSING` from `internal_all`
+- `/coin-home-5/` -> `MISSING` from `internal_all`
+- `/?page_id=2389` -> `MISSING` from `internal_all`
+- `/?page_id=2413` -> `MISSING` from `internal_all`
+
+This means wave 2 removed the template-level internal crawl noise for:
+
+- `2` redirect targets
+- `2` dead page-id targets
+
+Total template-level problem URLs cleared from the second recrawl:
+
+- `4`
+
+## 13. Wave 2 Residual State
+
+By the second recrawl:
+
+- `/contact/` = `200`, `noindex`, still linked for users
+- `/my-bookmarks/` = `200`, `noindex`
+- `/customize-interests/` = `200`, `noindex`
+- `/uncategorized/` = `200`, `noindex`
+- `/market/investor/` = `200`, `noindex`
+- `/press-release/` = `200`, `noindex`
+- `/news/coinbase/` = `200`, `noindex`
+
+Residual crawl-noise leaders after wave 2 were much smaller:
+
+- top internal `301`: `/t/coinbase/` with `23` inlinks
+- top internal `404`: `/cdn-cgi/l/email-protection` with `37` inlinks
+
+## 14. Combined Result After Wave 1 + Wave 2
+
+Across the first two waves, the project had:
+
+- reviewed `122` duplicate / duplicate-like rows
+- prepared `354` redirect import rows
+- split unresolved broken targets into `9` keep-404 and `7` hold-review cases
+- cleaned `100` prioritized source-link rows across `95` posts
+- removed `5` generic thin-content URLs
+- stabilized `11` tracked archive URLs
+- removed `5` legacy mobile menu items
+- cleared `4` template-level problem URLs from the follow-up recrawl
+
+Wave 1 handled the bulk content, duplicate, archive, and redirect cleanup.
+
+Wave 2 removed the template-level leftovers that only became obvious after recrawling the site.
