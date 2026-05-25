@@ -1,0 +1,32 @@
+source_url,action_bucket,reason,confidence
+https://defiliban.io/lbank-launches-elite-lead-trader-challenge-with-enhanced-rewards-for-top-trading-performance/,delete_if_you_want_to_shrink_pr,Exchange promo contest PR with low evergreen value; easier to delete than hand-fix contact block if PR content is not a priority.,medium
+https://defiliban.io/bybit-ranks-no-2-in-open-interest-among-major-crypto-exchanges-leads-cexs-in-oi-to-volume-ratio/,keep_and_fix_email,Crypto-exchange market claim article; still on-topic enough to keep if site wants exchange/news coverage.,medium
+https://defiliban.io/btcc-exchange-and-afa-launch-a-trading-championship-with-a-million-usdt-prize-pool-and-a-messi-signed-jersey/,delete_if_you_want_to_shrink_pr,Promo championship PR rather than durable editorial content.,high
+https://defiliban.io/lbank-reports-2-5-billion-daily-tradfi-trading-volume-up-25-since-march/,delete_if_you_want_to_shrink_pr,Self-promotional exchange metrics PR; weak long-term value.,medium
+https://defiliban.io/bybit-announces-early-bird-ticket-access-for-tomorrowland-brasil-2027-for-bybit-cardholders/,delete_if_you_want_to_shrink_pr,Brand/cardholder promo PR with weak SEO value for DefiLiban.,high
+https://defiliban.io/ineminer-cloud-mining-launch/,delete_high_confidence,Cloud-mining launch article looks spammy/high-risk and low-quality.,high
+https://defiliban.io/blofin-war-of-whales-2026-grand-prix-opens-registration-for-5m-trading-championship/,delete_if_you_want_to_shrink_pr,Contest registration PR with low editorial value.,high
+https://defiliban.io/secondfi-and-wirex-partner-to-launch-self-custodial-card-putting-global-users-in-full-control-of-their-money/,keep_and_fix_email,Crypto product partnership is at least thematically relevant and can be kept if PR coverage is allowed.,medium
+https://defiliban.io/ourbit-super-ipo-products-spax-and-openai-see-active-market-participation/,delete_high_confidence,Spammy promo framing and weak editorial value.,high
+https://defiliban.io/basis-pro-is-live-base58labs-officially-launches-crypto-arbitrage-platform/,delete_high_confidence,Launch PR for arbitrage platform; low trust and low evergreen value.,high
+https://defiliban.io/knoxnet-introduces-the-first-dual-domain-layer-1-privacy-network-where-the-internet-is-optional/,delete_if_you_want_to_shrink_pr,Token/network launch PR; likely thin and promotional unless this topic is strategically important.,medium
+https://defiliban.io/roobet-launches-prediction-markets-on-may-6-the-first-major-crypto-casino-to-integrate-the-format/,delete_high_confidence,Crypto-casino promo piece is low-trust and off-brand for a cleaner SEO profile.,high
+https://defiliban.io/fintech-revolution-summit-abu-dhabi-2025/,delete_high_confidence,Generic event promo outside core DeFi editorial focus.,high
+https://defiliban.io/cyber-revolution-summit-2026-mozambique-harnessing-innovation-for-a-safer-cyber-future/,delete_high_confidence,Off-topic B2B summit promo with low relevance to crypto/DeFi.,high
+https://defiliban.io/world-datacentre-summit-vietnam-2026-opens-sponsorship-speaking-and-exhibition-opportunities/,delete_high_confidence,Datacentre event sponsorship promo is off-topic for the site.,high
+https://defiliban.io/govxcellence-summit-malaysia-2026/,delete_high_confidence,Government digitization summit promo is off-topic for the site.,high
+https://defiliban.io/imf-economic-perspectives-2025/,delete_if_you_want_to_shrink_pr,Macro-economy piece could be relevant, but title looks generic and likely weak compared with site focus.,medium
+https://defiliban.io/jakarta-sets-the-stage-for-a-people-powered-revolution-the-world-hr-summit-indonesia-lands-on-november-26-2025/,delete_high_confidence,HR summit promo is off-topic for the site.,high
+https://defiliban.io/air-summit-2026-where-artificial-intelligence-powers-the-next-wave-of-innovation/,delete_high_confidence,Generic AI summit promo unrelated to site core topical authority.,high
+https://defiliban.io/bahrain-powers-the-next-wave-of-financial-innovation-fintech-revolution-summit-2026-announced-in-manama/,delete_high_confidence,Fintech summit promo; likely PR clutter if the site is not building an events vertical.,high
+https://defiliban.io/cyber-revolution-summit-2025-kuwait-harnessing-innovation-for-a-safer-cyber-future/,delete_high_confidence,Off-topic cyber summit promo.,high
+https://defiliban.io/air-summit-2025-where-artificial-intelligence-powers-the-next-wave-of-innovation/,delete_high_confidence,Generic AI summit promo unrelated to site core topical authority.,high
+https://defiliban.io/the-digital-revolution-summit-2025-lets-shape-a-smarter-tech-driven-future-together/,delete_high_confidence,Generic tech summit promo; low topical fit.,high
+https://defiliban.io/saudi-arabia-to-host-the-oil-gas-technology-summit-2025-on-7th-8th-september/,delete_high_confidence,Oil and gas event promo is clearly outside the site's crypto/DeFi topical focus.,high
+https://defiliban.io/saudi-arabia-leads-middle-easts-fintech-future-fintech-revolution-summit-2025/,delete_high_confidence,Fintech summit promo; low fit unless an events strategy exists.,high
+https://defiliban.io/australias-premier-crypto-event-returns-for-2025-auscryptocon-set-to-transform-sydney-this-november/,keep_and_fix_email,Crypto event coverage is on-topic enough to keep if the site covers ecosystem events.,medium
+https://defiliban.io/govxcellence-philippines-2026-digitize-modernize-lead-advancing-governance-excellence-for-a-smarter-nation/,delete_high_confidence,Government modernization summit promo is off-topic.,high
+https://defiliban.io/blockchain-futurist-conference-returns-to-toronto-for-its-ninth-year/,keep_and_fix_email,Well-known blockchain event is relevant to the site's niche and more defensible than generic summit promos.,medium
+https://defiliban.io/philippines-fintech-revolution-summit-2026-opens-sponsorship-speaking-and-exhibition-opportunities/,delete_high_confidence,Fintech sponsorship promo is PR clutter with weak evergreen value.,high
+https://defiliban.io/fintech-revolution-summit-philippines-2026/,delete_high_confidence,Generic fintech summit promo; low fit unless an events vertical exists.,high
+https://defiliban.io/canadian-scammer-cryptocurrency-theft/,keep_and_fix_email,Actual crime/news angle is editorially useful and more worth keeping than promotional PR content.,high
