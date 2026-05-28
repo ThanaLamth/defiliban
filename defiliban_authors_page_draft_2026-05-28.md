@@ -60,15 +60,16 @@ Together, the current DeFiliban contributors cover the site’s core editorial a
 
 Each author page is intended to help readers understand who wrote a piece of content and where that writer’s coverage is concentrated.
 
-This page works alongside our [About](https://defiliban.io/about/) and [Contact](https://defiliban.io/contact/) pages to improve publisher transparency and accountability. Additional editorial documentation, including policy and corrections pages, is being formalized as the site’s newsroom framework expands.
+This page works alongside our [About](https://defiliban.io/about/), [Contact](https://defiliban.io/contact/), [Editorial Policy](https://defiliban.io/editorial-policy/), [Corrections Policy](https://defiliban.io/corrections-policy/), and [Masthead](https://defiliban.io/masthead/) pages to improve publisher transparency and accountability.
 
 ## Related Pages To Link
 
 - [About](https://defiliban.io/about/)
 - [Contact](https://defiliban.io/contact/)
-- Editorial Policy
-- Corrections Policy
-- Team Verification
+- [Editorial Policy](https://defiliban.io/editorial-policy/)
+- [Corrections Policy](https://defiliban.io/corrections-policy/)
+- [Team Verification](https://defiliban.io/team-verification/)
+- [Masthead](https://defiliban.io/masthead/)
 
 ## Editor Notes
 

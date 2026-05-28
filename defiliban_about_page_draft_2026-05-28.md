@@ -55,17 +55,18 @@ Author pages are part of how we show readers who is behind our coverage and how 
 
 ## Contact and Accountability
 
-If you need to reach DeFiliban about editorial questions, factual corrections, partnerships, or general inquiries, use the contact information provided on our Contact page.
+If you need to reach DeFiliban about editorial questions, factual corrections, partnerships, or general inquiries, use the contact information provided on our [Contact](https://defiliban.io/contact/) page.
 
 We believe readers should be able to understand who publishes a site, what it covers, and how to reach the team behind it. This page is part of that commitment.
 
 ## Related Pages To Link
 
-- Contact
-- Authors
-- Editorial Policy
-- Corrections Policy
-- Team Verification
+- [Contact](https://defiliban.io/contact/)
+- [Authors](https://defiliban.io/authors/)
+- [Editorial Policy](https://defiliban.io/editorial-policy/)
+- [Corrections Policy](https://defiliban.io/corrections-policy/)
+- [Team Verification](https://defiliban.io/team-verification/)
+- [Masthead](https://defiliban.io/masthead/)
 
 ## Editor Notes
 

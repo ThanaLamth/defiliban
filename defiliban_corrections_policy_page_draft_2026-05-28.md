@@ -81,7 +81,8 @@ Sponsored, partner, or promotional material should also be corrected when it con
 - [Authors](https://defiliban.io/authors/)
 - [Editorial Policy](https://defiliban.io/editorial-policy/)
 - [Contact](https://defiliban.io/contact/)
-- Team Verification
+- [Team Verification](https://defiliban.io/team-verification/)
+- [Masthead](https://defiliban.io/masthead/)
 
 ## Editor Notes
 

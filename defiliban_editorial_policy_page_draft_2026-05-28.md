@@ -78,7 +78,7 @@ Crypto markets and protocol developments move quickly, and material facts can ch
 
 When an important detail changes, we aim to update the article so readers are not left with outdated or misleading information. If we identify a meaningful factual error, we aim to correct it promptly.
 
-When a correction is substantive, the article should be updated in a way that does not leave the original inaccuracy standing without clarification. DeFiliban is formalizing a dedicated corrections page to make this process more explicit.
+When a correction is substantive, the article should be updated in a way that does not leave the original inaccuracy standing without clarification. You can read more about that process on our [Corrections Policy](https://defiliban.io/corrections-policy/) page.
 
 ## Sponsored, Promotional, and Partner Content
 
@@ -115,8 +115,9 @@ If you believe an article contains a factual issue, needs clarification, or rais
 - [About](https://defiliban.io/about/)
 - [Authors](https://defiliban.io/authors/)
 - [Contact](https://defiliban.io/contact/)
-- Corrections Policy
-- Team Verification
+- [Corrections Policy](https://defiliban.io/corrections-policy/)
+- [Team Verification](https://defiliban.io/team-verification/)
+- [Masthead](https://defiliban.io/masthead/)
 
 ## Editor Notes
 

@@ -24,6 +24,7 @@ The following pages are part of DeFiliban's official publisher and editorial tru
 - [Authors](https://defiliban.io/authors/)
 - [Editorial Policy](https://defiliban.io/editorial-policy/)
 - [Corrections Policy](https://defiliban.io/corrections-policy/)
+- [Masthead](https://defiliban.io/masthead/)
 - [Contact](https://defiliban.io/contact/)
 
 These pages are intended to help readers evaluate who is behind the site, how coverage is produced, and where editorial concerns can be directed.
@@ -77,7 +78,7 @@ At this stage, the most reliable official verification channels for DeFiliban ar
 - the [About](https://defiliban.io/about/) page
 - the [Authors](https://defiliban.io/authors/) page
 - the [Contact](https://defiliban.io/contact/) page
-- the publication's editorial and corrections pages on the same domain
+- the publication's editorial, corrections, and masthead pages on the same domain
 
 If DeFiliban adds official social profiles, a masthead page, or a dedicated editorial contact address later, those channels should also be listed here.
 
@@ -100,7 +101,7 @@ Useful reports usually include:
 
 ## Scope
 
-This page is meant to support transparency and verification. It does not replace the more detailed information available on the About, Authors, Editorial Policy, and Corrections Policy pages.
+This page is meant to support transparency and verification. It does not replace the more detailed information available on the About, Authors, Editorial Policy, Corrections Policy, and Masthead pages.
 
 ## Related Pages To Link
 
@@ -108,6 +109,7 @@ This page is meant to support transparency and verification. It does not replace
 - [Authors](https://defiliban.io/authors/)
 - [Editorial Policy](https://defiliban.io/editorial-policy/)
 - [Corrections Policy](https://defiliban.io/corrections-policy/)
+- [Masthead](https://defiliban.io/masthead/)
 - [Contact](https://defiliban.io/contact/)
 
 ## Editor Notes
