@@ -38,6 +38,16 @@ At the time of this update, DeFiliban content is associated with the following i
 
 Readers should treat these author archive pages as the main on-site reference points for contributor identity and coverage focus.
 
+## Verified Team Roles
+
+The current contributor roles represented across DeFiliban's trust pages are:
+
+- Ada Michael — DeFi Writer and Research Contributor
+- Lucille Rosario — DeFi News Writer and Analyst
+- Oliver Benjamin — DeFi Research Writer
+
+If a public byline or profile presents itself as an official DeFiliban contributor but does not align with the publication's author and trust pages, that discrepancy should be treated cautiously.
+
 ## How to Verify an Author Page
 
 When reviewing a DeFiliban author page, readers should be able to confirm:
@@ -58,6 +68,24 @@ Readers can use the following signals to identify whether a page reflects offici
 - it aligns with the publication's author, editorial, and corrections documentation
 
 Where uncertainty exists, the safest route is to rely on the pages listed above rather than third-party summaries or reposted copies.
+
+## Official Verification Channels
+
+At this stage, the most reliable official verification channels for DeFiliban are:
+
+- the main `defiliban.io` website
+- the [About](https://defiliban.io/about/) page
+- the [Authors](https://defiliban.io/authors/) page
+- the [Contact](https://defiliban.io/contact/) page
+- the publication's editorial and corrections pages on the same domain
+
+If DeFiliban adds official social profiles, a masthead page, or a dedicated editorial contact address later, those channels should also be listed here.
+
+## Impersonation and Misrepresentation
+
+Readers should be cautious with any account, profile, or third-party page claiming to represent DeFiliban if it is not supported by the official pages listed above.
+
+If a person, page, or message claims to be an official DeFiliban representative without a clear connection to the publication's own domain and trust pages, that claim should be treated as unverified until confirmed.
 
 ## Reporting an Issue
 
