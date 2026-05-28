@@ -42,9 +42,13 @@ When a substantive factual correction is needed, DeFiliban aims to:
 
 Where appropriate, a note may be added to explain that a correction or significant update has been made.
 
+As a working standard, routine correction notes can appear at the bottom of an article, while major corrections that materially affect the core understanding of a story may be noted more prominently.
+
 ## Minor Edits
 
 Minor edits such as grammar, formatting, punctuation, or small readability improvements do not usually require a correction note if they do not change the factual meaning of the article.
+
+Routine updates to developing stories also do not always require a formal correction note when they add new verified information rather than fix a factual inaccuracy.
 
 ## Developing Stories
 
@@ -62,6 +66,8 @@ When reporting an issue, it is most useful to include:
 - the sentence or claim in question
 - the reason you believe it is inaccurate or unclear
 - a source, document, or reference if available
+
+If DeFiliban establishes a dedicated editorial or corrections email in the future, that contact route should be added here as well.
 
 ## Scope
 
