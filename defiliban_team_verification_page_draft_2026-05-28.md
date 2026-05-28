@@ -53,7 +53,6 @@ If an article byline and its linked author profile do not match clearly, that sh
 
 Readers can use the following signals to identify whether a page reflects official DeFiliban publisher information:
 
-- it appears within the main site on the `defiliban.io` domain
 - it appears within the main `defiliban.io` domain
 - it is linked through DeFiliban's trust or contact pages
 - it aligns with the publication's author, editorial, and corrections documentation
