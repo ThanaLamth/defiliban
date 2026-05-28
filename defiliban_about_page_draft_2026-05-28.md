@@ -49,7 +49,7 @@ If we publish something inaccurate or incomplete, we review it and correct it as
 
 ## Who Writes for DeFiliban
 
-DeFiliban currently publishes work from contributors including Ada Michael, Lucille Rosario, and Oliver Benjamin.
+DeFiliban currently publishes work from contributors including [Ada Michael](https://defiliban.io/author/ada-michael/), [Lucille Rosario](https://defiliban.io/author/lucille-rosario/), and [Oliver Benjamin](https://defiliban.io/author/oliver-benjamin/).
 
 Author pages are part of how we show readers who is behind our coverage and how each writer contributes to the site.
 
