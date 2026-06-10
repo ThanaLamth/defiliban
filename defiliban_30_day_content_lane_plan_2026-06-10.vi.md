@@ -200,6 +200,64 @@ Lane này nên build dần để mở rộng audience, nhưng không nên đè l
 29. `How whale positioning and treasury moves reshape on-chain market structure`
 30. `What users miss when they compare DeFi markets only by TVL`
 
+## First 4 Article Cluster
+
+Nếu phải bắt đầu ngay bây giờ, Defiliban nên mở bằng một mini cluster `Stablecoins` gồm 4 bài.
+
+### Bài 1
+
+`What Stablecoin Settlement Rails Actually Change for Cross-Border Payments`
+
+- vai trò: hub / explainer
+- mục tiêu: dựng nền authority cho stablecoin payments
+- map chính: `Protocols` hoặc `Infrastructure`
+
+### Bài 2
+
+`What Reserve Transparency Really Tells Users About a Stablecoin Issuer`
+
+- vai trò: trust / risk explainer
+- mục tiêu: nối stablecoins với reserve, backing, redemption risk
+- map chính: `Risk`
+
+### Bài 3
+
+`Why Yield-Bearing Stablecoins Are Becoming a New DeFi Battleground`
+
+- vai trò: market structure / strategy
+- mục tiêu: nối stablecoins với lane yield
+- map chính: `Protocols` hoặc `Yield`
+
+### Bài 4
+
+`How Users Are Actually Using USDC and USDT for Real Payment Workflows`
+
+- vai trò: utility / use-case
+- mục tiêu: kéo stablecoin lane gần đời sống hơn
+- map chính: `Protocols`
+
+### Vì Sao Chọn Bộ 4 Này
+
+- có 1 bài nền
+- có 1 bài risk
+- có 1 bài yield angle
+- có 1 bài real-life utility
+- đủ để tạo mini cluster ngay từ đầu
+
+### Internal Link Tối Thiểu
+
+- cả 4 bài link qua lại với nhau
+- tất cả link về pillar hub liên quan
+- bài `reserve transparency` nên link sang `yield-bearing stablecoins`
+- bài `payment workflows` nên link sang `settlement rails`
+
+### Thứ Tự Viết
+
+1. `What Stablecoin Settlement Rails Actually Change for Cross-Border Payments`
+2. `What Reserve Transparency Really Tells Users About a Stablecoin Issuer`
+3. `Why Yield-Bearing Stablecoins Are Becoming a New DeFi Battleground`
+4. `How Users Are Actually Using USDC and USDT for Real Payment Workflows`
+
 ## Publish Order Khuyên Dùng
 
 ### Tuần 1
