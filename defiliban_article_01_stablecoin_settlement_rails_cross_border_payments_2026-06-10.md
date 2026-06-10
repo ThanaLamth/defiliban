@@ -44,11 +44,36 @@ They do **not** automatically solve:
 4. Issuer risk, reserve quality, or redemption risk.
 5. Wallet, custody, smart contract, or chain-level operational risk.
 
+## The Original Value Layer
+
+The clearest way to understand stablecoin rails is this: they do not just move money faster. They reduce **coordination cost** across the payment stack.
+
+In legacy cross-border payments, messaging, settlement, reconciliation, liquidity placement, and payout are often handled by different institutions on different ledgers. That fragmentation is why even "digital" international payments can still feel slow, opaque, and operationally heavy.
+
+Stablecoin rails compress more of that process into one software-addressable object:
+
+1. the settlement asset is digital and programmable
+2. transfer status is visible on a shared ledger
+3. liquidity can be held in one interoperable balance instead of multiple fragmented accounts
+4. payment instructions can be linked directly to treasury and payout logic
+
+That is the deeper value. Stablecoins do not only change **speed**. They change the cost of coordinating money movement across systems, entities, and time zones.
+
+This framing also explains why the strongest stablecoin use cases tend to be recurring, operationally messy, and cross-jurisdictional. The more reconciliation, prefunding, and timing friction a payment flow has, the more a stablecoin settlement rail can matter.
+
 ## Why Cross-Border Payments Still Feel Broken
 
 The baseline problem is not that moving money across borders is impossible. It is that the process is still fragmented.
 
-The [Bank for International Settlements](https://www.bis.org/topics/cross_border_payments.htm) has repeatedly framed cross-border payments as too slow, too expensive, too opaque, and too inaccessible. The [World Bank's Remittance Prices Worldwide database](https://remittanceprices.worldbank.org/) continues to show that sending money internationally still carries meaningful cost, with the global average cost for remittances remaining well above the UN's 3% target.
+The [Bank for International Settlements](https://www.bis.org/topics/cross_border_payments.htm) has repeatedly framed cross-border payments as too slow, too expensive, too opaque, and too inaccessible. The [World Bank's Remittance Prices Worldwide database](https://remittanceprices.worldbank.org/) continues to show that sending money internationally still carries meaningful cost. In its March 2025 report, the World Bank said the global average cost of sending **$200** was **6.49%** in **Q1 2025**, while the digital remittance average was **4.85%**, still above the UN's **3%** target.
+
+The same report shows why infrastructure matters more than slogans:
+
+1. banks remained the costliest remittance provider type at **14.55%** on average in Q1 2025
+2. the United States averaged **5.56%** as a sending market in Q1 2025
+3. digital services accounted for only **29%** of tracked services
+
+That is the real opening for stablecoin rails. They are most compelling where payment friction is still driven by provider layers, funding structure, and reconciliation overhead rather than by the user interface alone.
 
 In the traditional model, a cross-border payment often touches several layers at once:
 
@@ -126,6 +151,47 @@ A firm can trigger vendor payments after a condition is met, release marketplace
 
 This is where the "rail" matters more than the token ticker. A useful stablecoin payment stack is one that supports custody, controls, reporting, routing, and redemption with enough reliability for real business workflows.
 
+## What This Looks Like in Real Operations
+
+The easiest way to make this concrete is to look at how stablecoin settlement works in live payment stacks rather than in abstract crypto diagrams.
+
+### Example 1: Deel and Stripe
+
+On **June 3, 2026**, Stripe announced that Deel was using Stripe infrastructure to help contractors in **150+ countries** hold, earn, and spend a dollar-backed balance. Stripe said Deel supports **40,000+ businesses** and **1.5 million workers** worldwide.
+
+More importantly, Stripe described the actual operational flow:
+
+1. an employer pays Deel
+2. Stripe handles the collection flow and fraud screening
+3. Bridge converts US dollars into Deel's stablecoin balance
+4. the balance lands in an embedded wallet
+5. the contractor receives a dollar-backed balance that settles nearly instantly on the underlying network
+
+This is a good example because it shows what stablecoins change in practice. The user does not need to think about blockchain mechanics. What changes is the backend: faster settlement, programmable wallet balances, and less dependence on slow international payout timing.
+
+Stripe also added one demand signal that matters: according to Deel, in **2025**, **85%** of contractors in Argentina wanted to be paid in US dollars rather than Argentine pesos.
+
+### Example 2: Visa stablecoin settlement
+
+Visa's use case is different. It is not retail remittance marketing. It is backend settlement modernization.
+
+Visa said on **July 31, 2025** that its settlement platform was expanding support to more stablecoins, more chains, and EURC, on top of existing support for Ethereum and Solana. A separate Visa post on **December 17, 2025** said the company was using stablecoins to support **365-day settlement** and that its monthly volume had passed a **$2.5 billion annualized run rate**. In its **December 16, 2025** press release, Visa separately said stablecoin-linked settlement activity had reached a monthly run rate equivalent to more than **$3.5 billion annualized**.
+
+The key point is not the exact run-rate number. The key point is that a major payments network is using stablecoins to digitize the **backend of money movement** rather than talking only about consumer crypto wallets.
+
+### Example 3: Circle's OFI-to-BFI model
+
+Circle's [Circle Payments Network](https://www.circle.com/cpn) is useful because it spells out the institutional operating model directly.
+
+In Circle's design:
+
+1. an Originating Financial Institution verifies the sender, performs checks, converts fiat to stablecoins, and sends the payment
+2. a Beneficiary Financial Institution receives the stablecoins, converts them into local fiat, and pays the recipient
+
+Circle positions this as a way to reduce prefunding, improve capital efficiency, and unlock global fiat payouts through one integration rather than through many bilateral relationships.
+
+That flow shows the real architecture clearly. Stablecoins improve the **intermediate settlement layer**, but the regulated institutions, compliance checks, and fiat payout endpoints still matter at both ends.
+
 ## What Stablecoin Rails Do Not Change
 
 This is the section many crypto explainers skip.
@@ -192,6 +258,8 @@ A useful authority article should also acknowledge that stablecoins are not the 
 
 The BIS has been working on projects such as [Project Nexus](https://www.bis.org/about/bisih/topics/fmis/nexus.htm), which links domestic instant payment systems, and [Project Agorá](https://www.bis.org/about/bisih/topics/fmis/agora.htm), which explores tokenized commercial bank money and central bank money for wholesale cross-border settlement.
 
+That comparison matters because the BIS is making a similar diagnosis from a different institutional angle. In its [June 24, 2025 press release](https://www.bis.org/press/p250624.htm), the BIS said tokenization can integrate **messaging, reconciliation, and settlement** into a single operation. In other words, even central-bank-oriented modernization is converging on the same core idea: the real gain is not just moving money faster, but reducing the number of disconnected processes around the payment.
+
 That matters for two reasons:
 
 1. It shows that the market agrees the legacy model is inefficient.
@@ -227,6 +295,55 @@ So if you want to evaluate stablecoins in payments seriously, do not ask only wh
 
 Ask whether the full settlement rail is usable.
 
+## A Simple Decision Framework
+
+If you are evaluating whether a stablecoin rail is actually better than a traditional cross-border flow, use these seven questions.
+
+### 1. What exactly is broken in the current flow?
+
+Stablecoins are most useful when the pain is settlement latency, trapped liquidity, after-hours timing, reconciliation overhead, or corridor fragmentation. They are less useful when the real issue is poor local banking access or difficult compliance in the destination market.
+
+### 2. Does the recipient need dollars or local currency?
+
+If the recipient is comfortable holding a dollar-backed balance, stablecoins can solve more of the payment stack. If the recipient needs immediate local fiat, then off-ramp depth and FX costs become decisive.
+
+### 3. Is the flow recurring enough to justify infrastructure work?
+
+Stablecoin rails are usually strongest for recurring flows such as payroll, supplier settlement, treasury rebalancing, and marketplace payouts. One-off low-volume transfers often do not justify additional integration complexity.
+
+### 4. Can your counterparties actually redeem and use the asset?
+
+A stablecoin is only a real rail if both sides can receive it, custody it safely, and redeem it reliably. If redemption access is weak, the payment rail is weak.
+
+### 5. Is compliance easier, harder, or just moved elsewhere?
+
+Do not assume compliance disappears. Check who handles KYC, KYB, sanctions screening, travel rule obligations, transaction monitoring, and dispute handling.
+
+### 6. What is the real working-capital impact?
+
+If a stablecoin flow reduces prefunding or nostro dependence, that is meaningful value. If it just adds another balance to manage, the benefit may be overstated.
+
+### 7. Which risk are you willing to accept instead?
+
+Traditional rails come with banking delays and opacity. Stablecoin rails come with issuer risk, custody risk, chain selection risk, and operational design risk. The decision is rarely "risk versus no risk." It is usually **which risk profile fits the use case better**.
+
+### Practical rule of thumb
+
+Use stablecoin settlement rails when:
+
+1. the corridor is slow or operationally fragmented
+2. the flow is frequent or high-value enough to matter
+3. dollar-denominated settlement is acceptable
+4. reliable off-ramp and compliance partners exist
+5. the liquidity and reconciliation gains outweigh the new operational risks
+
+Stay with legacy or hybrid rails when:
+
+1. the recipient only wants local fiat
+2. local payout coverage is the real bottleneck
+3. transaction values are small and infrequent
+4. the compliance burden or issuer risk is too high for the use case
+
 ## FAQ
 
 ### Are stablecoins replacing SWIFT?
@@ -259,9 +376,14 @@ The analysis above is based primarily on official materials from:
 4. [World Bank: Remittance Prices Worldwide](https://remittanceprices.worldbank.org/)
 5. [Circle: USDC](https://www.circle.com/usdc)
 6. [Stripe: Stablecoin cross-border payments](https://stripe.com/resources/more/stablecoin-cross-border-payments)
-7. [Visa: Stablecoin settlement](https://usa.visa.com/solutions/crypto/stablecoin.html)
-8. [Visa press release, December 16, 2025](https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.21641.html)
-9. [European Central Bank speech by Piero Cipollone, May 29, 2026](https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260529_1~7ac66119bb.en.html)
+7. [Stripe newsroom: Deel and Stripe, June 3, 2026](https://stripe.com/newsroom/news/deel-and-stripe)
+8. [Visa: Stablecoin settlement](https://usa.visa.com/solutions/crypto/stablecoin.html)
+9. [Visa press release, December 16, 2025](https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.21641.html)
+10. [Visa update, July 31, 2025](https://investor.visa.com/news/news-details/2025/Visa-Expands-Stablecoin-Settlement-Support/default.aspx)
+11. [Visa and Aquanow, December 17, 2025](https://corporate.visa.com/en/sites/visa-perspectives/innovation/next-gen-stablecoin-settlement.html)
+12. [Circle Payments Network](https://www.circle.com/cpn)
+13. [European Central Bank speech by Piero Cipollone, May 29, 2026](https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260529_1~7ac66119bb.en.html)
+14. [BIS press release, June 24, 2025](https://www.bis.org/press/p250624.htm)
 
 ## Suggested Internal Links
 
