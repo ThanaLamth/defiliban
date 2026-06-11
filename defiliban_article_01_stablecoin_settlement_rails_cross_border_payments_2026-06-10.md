@@ -30,6 +30,10 @@ As of **June 2026**, this is best understood as an infrastructure buildout story
 
 That distinction matters if you are trying to understand where stablecoins genuinely improve cross-border payments, and where the hard parts still live.
 
+![Editorial explainer diagram comparing legacy cross-border payment rails with stablecoin settlement rails, including a nuance box on what stablecoins do not solve.](assets/stablecoins/stablecoin-settlement-rails-cross-border-payments-diagram-2026-06-11.png)
+
+*Editorial explainer: stablecoins compress the settlement layer, but they do not remove compliance, FX, off-ramp, or issuer-risk constraints.*
+
 ## Quick Answer
 
 If you only need the short version, this is it:
