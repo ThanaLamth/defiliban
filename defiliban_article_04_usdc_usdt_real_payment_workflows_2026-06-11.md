@@ -36,6 +36,10 @@ As of **June 2026**, USDC and USDT are increasingly being used as **operational 
 
 > **Summary callout:** The strongest real-world use of USDC and USDT is not usually buying coffee. It is moving, holding, settling, and distributing dollars in workflows where banking hours, prefunding, FX friction, or local currency instability create real operational pain.
 
+![Editorial explainer diagram showing where USDC and USDT are actually being used in payment workflows, what that usage does not mean, and why USDC and USDT often appear in different parts of the payment stack.](assets/stablecoins/usdc-usdt-real-payment-workflows-diagram-2026-06-11.png)
+
+*Editorial explainer: stablecoin payment adoption is strongest where users need an operational dollar, not where they need a perfect retail checkout replacement.*
+
 ## Quick Answer
 
 If you only need the short version, this is it:
