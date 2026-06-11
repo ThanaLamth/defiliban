@@ -26,6 +26,10 @@ The better question is: **backed by what, held where, reported how often, and re
 
 As of **June 2026**, that is the real trust framework for large fiat-backed stablecoins.
 
+![Editorial explainer diagram showing what reserve transparency can tell users about a stablecoin issuer, what it does not prove, and which redemption and reserve checks matter next.](assets/stablecoins/stablecoin-reserve-transparency-issuer-risk-diagram-2026-06-11.png)
+
+*Editorial explainer: reserve transparency helps users judge backing quality and redemption design, but it does not by itself remove legal, operational, or stress-event risk.*
+
 ## Quick Answer
 
 If you only need the short version, this is it:
