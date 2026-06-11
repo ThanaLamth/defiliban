@@ -30,6 +30,8 @@ As of **June 2026**, that is the real trust framework for large fiat-backed stab
 
 *Editorial explainer: reserve transparency helps users judge backing quality and redemption design, but it does not by itself remove legal, operational, or stress-event risk.*
 
+> **Summary callout:** A stablecoin can look well backed on paper while redemption access, stress liquidity, and legal structure still create real risk. A reserve **attestation** is also narrower than a full **audit** of the issuer.
+
 ## Quick Answer
 
 If you only need the short version, this is it:
@@ -50,6 +52,8 @@ Reserve transparency does **not** tell you everything:
 3. it does not guarantee that redemptions will stay frictionless during a crisis
 4. it does not remove legal, compliance, custody, or governance risk
 5. it does not make a stablecoin equivalent to insured bank deposits or central bank money
+
+One important distinction should come early: a reserve **attestation** usually tests management's claims about reserve assets and liabilities at specific dates, while a full **audit** is broader and does not mean the same thing.
 
 ## Best Fit / Not Ideal For
 
@@ -82,7 +86,7 @@ Reserve transparency does **not** tell you everything:
 1. Reserve transparency is not a marketing extra. It is one of the clearest signals of issuer quality.
 2. The most important reserve question is not only size. It is liquidity under stress.
 3. Redemption rights matter as much as reserve composition because a stablecoin can look sound on paper while access to par is limited.
-4. Monthly or quarterly reserve reports are useful, but they are snapshots, not continuous proof.
+4. Monthly or quarterly reserve reports and attestations are useful, but they are snapshots, not continuous proof.
 5. The strongest trust setup combines liquid assets, clear legal segregation, direct redemption rights, and frequent third-party reviewed disclosure.
 
 ## Why Reserve Transparency Matters Beyond "Is It Backed?"
