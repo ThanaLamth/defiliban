@@ -26,6 +26,8 @@ What stablecoin settlement rails actually change is narrower, but still importan
 
 They do **not** eliminate compliance, foreign exchange, local payout infrastructure, or the need to trust the issuer behind the stablecoin.
 
+As of **June 2026**, this is best understood as an infrastructure buildout story, not a full replacement story for cross-border banking.
+
 That distinction matters if you are trying to understand where stablecoins genuinely improve cross-border payments, and where the hard parts still live.
 
 ## Quick Answer
@@ -47,6 +49,22 @@ They do **not** automatically solve:
 3. FX conversion when the sender and receiver need different currencies.
 4. Issuer risk, reserve quality, or redemption risk.
 5. Wallet, custody, smart contract, or chain-level operational risk.
+
+## Best Fit / Not Ideal For
+
+**Best fit for:**
+
+1. recurring B2B payments, payroll, treasury rebalancing, and marketplace payouts
+2. corridors where banking cut-off windows, prefunding, and reconciliation create real friction
+3. dollar-denominated flows where recipients can hold or easily redeem a stablecoin balance
+4. businesses that already have compliance, custody, and payout partners in place
+
+**Not ideal for:**
+
+1. low-frequency, low-value transfers where integration effort outweighs the gain
+2. corridors where the recipient only wants immediate local-currency payout
+3. flows with weak off-ramp support, weak redemption access, or unclear issuer quality
+4. teams that are not prepared to manage custody, chain, and compliance operations
 
 ## Stablecoin Rails vs Legacy Cross-Border Rails at a Glance
 
@@ -312,6 +330,8 @@ That is still a big shift.
 They make value movement more continuous, more programmable, and often more transparent. They can reduce dependence on banking cut-off windows and simplify how liquidity is staged for international payments.
 
 But the hard parts of cross-border finance still matter: compliance, redemption, FX, local payout, and trust in the issuer and infrastructure stack.
+
+In **2025-2026**, the strongest evidence still points to backend settlement, treasury, and payout modernization rather than universal retail payment replacement.
 
 So if you want to evaluate stablecoins in payments seriously, do not ask only whether a token is popular.
 
