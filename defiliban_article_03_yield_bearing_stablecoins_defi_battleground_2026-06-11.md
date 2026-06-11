@@ -26,6 +26,10 @@ As of **June 2026**, that question sits at the center of a new DeFi battlefront.
 
 > **Summary callout:** Yield-bearing stablecoins are not all the same product. Some pass through Treasury income, some route protocol revenue, and some depend on synthetic carry or basis-style mechanics. The battleground is not just yield level. It is yield source, redemption design, collateral utility, and distribution power.
 
+![Editorial explainer diagram showing why yield-bearing stablecoins are becoming a DeFi battleground, including user demand, competitive pressure points, product models, and the strategy loop from yield capture to market power.](assets/stablecoins/yield-bearing-stablecoins-defi-battleground-diagram-2026-06-11.png)
+
+*Editorial explainer: the next stablecoin battle is not just about market cap. It is about who can combine yield, liquidity, trust, and composability.*
+
 ## Quick Answer
 
 If you only need the short version, this is it:
