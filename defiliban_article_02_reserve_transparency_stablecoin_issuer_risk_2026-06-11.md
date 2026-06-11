@@ -418,7 +418,3 @@ Best placement: in sections explaining why reserve quality matters to payroll, r
 3. Target: `Why Yield-Bearing Stablecoins Are Becoming a New DeFi Battleground`
 Anchor: `yield-bearing stablecoins` or `productive stablecoin competition`
 Best placement: in sections comparing reserve-backed dollars with productive-dollar products and savings wrappers
-
-4. Target: `How Stablecoin Regulation Changes Payment, Redemption, and Issuer Competition`
-Anchor: `stablecoin regulation` or `redemption and issuer competition`
-Best placement: in sections on disclosure discipline, lawful redemption, or official supervisory benchmarks

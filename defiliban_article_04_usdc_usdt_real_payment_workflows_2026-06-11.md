@@ -461,7 +461,3 @@ Best placement: in sections comparing why USDC and USDT show up in different wor
 3. Target: `Why Yield-Bearing Stablecoins Are Becoming a New DeFi Battleground`
 Anchor: `yield-bearing stablecoins` or `productive dollar products`
 Best placement: in sections contrasting payment stablecoins with savings and collateral-oriented stablecoin products
-
-4. Target: `How Stablecoin Regulation Changes Payment, Redemption, and Issuer Competition`
-Anchor: `stablecoin regulation` or `payment and redemption rules`
-Best placement: in sections on compliance, enterprise payment infrastructure, or issuer-selection tradeoffs

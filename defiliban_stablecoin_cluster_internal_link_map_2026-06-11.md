@@ -4,7 +4,7 @@ Date: 2026-06-11
 
 ## Verdict
 
-Strong cluster structure potential.
+Strong cluster structure potential, but the draft set should stay tighter.
 
 The 4 opening Stablecoins articles already cover distinct but tightly related intents:
 
@@ -13,7 +13,7 @@ The 4 opening Stablecoins articles already cover distinct but tightly related in
 3. yield and DeFi market structure
 4. real-world payment workflows
 
-That is enough to build a clean child-to-child and child-to-hub loop without wasting links.
+That is enough to build a clean child-to-child and child-to-hub loop without wasting links, as long as the cluster does not point too early to pages that are not yet in the live set.
 
 ## Strongest Source Pages Inside This Mini Cluster
 
@@ -35,7 +35,8 @@ Reason: utility page that converts abstract stablecoin discussion into real oper
 2. Every page should link to the reserve-transparency article when discussing trust, issuer quality, or redemption.
 3. The yield-bearing article should receive links when a page discusses idle stablecoin balances, savings behavior, or collateral competition.
 4. The real-payment-workflows article should receive links when a page moves from theory to actual usage.
-5. Avoid stuffing more than 4 cluster links per article in this draft phase. Keep them intentional.
+5. Keep this draft phase to 3 cluster links per article. The current pages are still new and should not spray attention too widely.
+6. Do not point all four pages to unpublished or not-yet-live targets. Add those links later when the next article actually exists and is ready to benefit.
 
 ## Draft-Ready Link Loop
 
@@ -54,9 +55,6 @@ Anchor: `real payment workflows`
 3. `Why Yield-Bearing Stablecoins Are Becoming a New DeFi Battleground`
 Anchor: `yield-bearing stablecoins`
 
-4. `How Stablecoin Regulation Changes Payment, Redemption, and Issuer Competition`
-Anchor: `stablecoin regulation`
-
 ### Article 2
 
 Source: `What Reserve Transparency Really Tells Users About a Stablecoin Issuer`
@@ -71,9 +69,6 @@ Anchor: `how users are actually using USDC and USDT`
 
 3. `Why Yield-Bearing Stablecoins Are Becoming a New DeFi Battleground`
 Anchor: `yield-bearing stablecoins`
-
-4. `How Stablecoin Regulation Changes Payment, Redemption, and Issuer Competition`
-Anchor: `redemption and issuer competition`
 
 ### Article 3
 
@@ -90,9 +85,6 @@ Anchor: `issuer and redemption risk`
 3. `How Users Are Actually Using USDC and USDT for Real Payment Workflows`
 Anchor: `operational dollar use cases`
 
-4. `How Stablecoin Regulation Changes Payment, Redemption, and Issuer Competition`
-Anchor: `regulatory constraints`
-
 ### Article 4
 
 Source: `How Users Are Actually Using USDC and USDT for Real Payment Workflows`
@@ -108,9 +100,6 @@ Anchor: `issuer and redemption risk`
 3. `Why Yield-Bearing Stablecoins Are Becoming a New DeFi Battleground`
 Anchor: `productive dollar products`
 
-4. `How Stablecoin Regulation Changes Payment, Redemption, and Issuer Competition`
-Anchor: `payment and redemption rules`
-
 ## Publish Priority
 
 1. Publish Article 1 first as the broadest hub.
@@ -121,5 +110,6 @@ Anchor: `payment and redemption rules`
 ## Next Actions
 
 1. Keep the current 4-way loop across the cluster.
-2. Once one page starts ranking well, use it as the stronger source page for later stablecoin regulation and depeg articles.
-3. Do not dilute these pages with random cross-lane links until the Stablecoins cluster has stronger crawl and ranking signals.
+2. Add the regulation article into the loop only after that page is written, published, and ready to receive internal support.
+3. Once one page starts ranking well, use it as the stronger source page for later stablecoin regulation and depeg articles.
+4. Do not dilute these pages with random cross-lane links until the Stablecoins cluster has stronger crawl and ranking signals.

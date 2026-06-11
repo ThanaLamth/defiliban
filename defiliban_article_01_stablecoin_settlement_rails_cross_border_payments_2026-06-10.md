@@ -444,7 +444,3 @@ Best placement: in sections on payroll, remittances, B2B settlement, or marketpl
 3. Target: `Why Yield-Bearing Stablecoins Are Becoming a New DeFi Battleground`
 Anchor: `yield-bearing stablecoins` or `productive dollar balances`
 Best placement: in sections about liquidity design, treasury usage, or where stablecoins are competing for user balances
-
-4. Target: `How Stablecoin Regulation Changes Payment, Redemption, and Issuer Competition`
-Anchor: `stablecoin regulation` or `regulation changes payment and redemption`
-Best placement: in sections covering compliance, issuer trust, or bank-led versus stablecoin-led modernization

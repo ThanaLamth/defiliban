@@ -400,7 +400,3 @@ Best placement: in sections on trust stacks, yield source credibility, or differ
 3. Target: `How Users Are Actually Using USDC and USDT for Real Payment Workflows`
 Anchor: `real payment workflows` or `operational dollar use cases`
 Best placement: in sections explaining why some users still prefer non-yielding stables for payroll, treasury, or settlement
-
-4. Target: `How Stablecoin Regulation Changes Payment, Redemption, and Issuer Competition`
-Anchor: `stablecoin regulation` or `regulatory constraints`
-Best placement: in sections on onboarding limits, access restrictions, or the USDM wind-down example
